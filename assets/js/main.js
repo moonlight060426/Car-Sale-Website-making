@@ -11,7 +11,7 @@ document.querySelector("#menu-icon").onclick = ()=> {
     menu.classList.toggle("active");
     search.classList.remove("active");
 }
-// Hie Menu and Search Box On Scroll
+// Hide Menu and Search Box On Scroll
 window.onscroll=()=> {
     menu.classList.remove("active");
     search.classList.remove("active");
